@@ -1,0 +1,203 @@
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+.db::-webkit-scrollbar {
+    width: 50px;
+    height: 8px;
+    background-color: #2e3136;
+}
+.db::-webkit-scrollbar-thumb {
+    background: darkblue;
+    border-radius: 16px;
+}
+
+.group::-webkit-scrollbar {
+    width: 16px;
+    background-color: gray;
+}
+.group::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 8px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 16px;
+    background-color: gray;
+}
+textarea::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 8px;
+}
+
+.group {
+    display: inline-grid;
+    max-height: 70%;
+    overflow: auto;
+    border-collapse: collapse;
+    width: 100%;
+    display: none;
+}
+
+.field {
+    border: 1px solid white;
+    cursor: pointer;
+    border-collapse: collapse;
+    padding: 1px 0px 1px 5px;
+}
+
+.selected {
+    border-color: red;
+}
+
+.match {
+    width: 650px;
+}
+
+.fieldOur[data-name=""] {
+    background-color: darkred !important;;
+}
+
+.darkMode {
+    background-color: darkblue;
+    color: white;
+    scrollbar-color: darkblue;
+}
+
+.db {
+    display: inline-block;
+    top: 0px;
+    vertical-align: top;
+    width: 550px;
+    height: 85%;
+    overflow: auto;
+    margin-right: 100px;
+    border: 1px solid;
+}
+
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: darkblue;
+}
+
+.tableName {
+    cursor: pointer;
+    padding: 3px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.info {
+    position: fixed;
+    width: 69%;
+}
+
+.spacer {
+    height: 80px;
+}
+
+.dbWrapper {
+    display: inline-block;
+}
+
+.search {
+    width: 77%;
+    margin-right: 87px;
+}
+
+.getRandomValue {
+    float: right;
+    cursor: pointer;
+    margin: 0;
+}
+
+.getRandomValue {
+    float: right;
+    margin: 0;
+}
+.mainTable {
+    width: 40%;
+}
+
+.fkPos {
+    width: 40%;
+}
+
+.empty {
+    background-color: #2e3136;
+}
+
+.set {
+    background-color: darkgreen !important;
+}
+
+.result {
+}
+
+.resultSql {
+}
+
+button, input[type="button"] {
+    cursor: pointer;
+}
+
+input, select, select option, textarea {
+    background-color: darkblue;
+    color: white;
+    font-family: arial;
+    border: 2px solid white;
+    margin: 1px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 10%;
+    width: 98%;
+    resize: vertical;
+}
+
+.block {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 29%;
+    overflow: auto;
+}
+
+.currentOur {
+    height: 20px;
+    font-weight: bold;
+}
+
+.inputGroup {
+    border: 2px solid white;
+    display: inline-block;
+}
+
+.tableEmpty {
+    background-color: gray !important;
+    color: lightgray;
+}
+
+.fieldEmpty {
+    background-color: gray;
+    color: white;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.important {
+    font-weight: bolder;
+}

@@ -1,0 +1,19 @@
+{
+    "matches": {
+        "ordering.createStamp": "{bestellungen.Erstellt_am}",
+        "ordering.customer": "{bestellungen.Kundennummer}",
+        "ordering.deliveryCity": "{adressen.Ort}",
+        "ordering.deliveryDate": "{bestellungen.AB_Liefertermin}",
+        "ordering.deliveryLocation": "Lieferscheinnummer: {bestellungen.Lieferscheinnummer}",
+        "ordering.deliveryNote": "{bestellungen.Lieferavis_Notiz}",
+        "ordering.deliveryStreet": "{adressen.Strasse}",
+        "ordering.deliveryZip": "{adressen.PLZ}",
+        "ordering.disabled": "{bestellungen_positionen.Geloescht}",
+        "ordering.editStamp": "{bestellungen_positionen.Geaendert}",
+        "ordering.id": "{bestellungen.ID}",
+        "ordering.no": "{bestellungen.Bestellnummer}",
+        "ordering.orderDate": "{bestellungen.Erstellt_am}",
+        "ordering.orderDescr": "{bestellungen.Bestellung_Notiz}",
+        "ordering.price": "{bestellungen.RG_EK}"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "matches": {
+        "sale.canceled": "{auftraege.Storniert}",
+        "sale.createStamp": "{auftraege.Erstellt_am}",
+        "sale.customer": "{auftraege.Adressen_Kunden_ID}",
+        "sale.date": "{auftraege.Auftragsdatum}",
+        "sale.deliveryAddress": "{auftraege.Adressen_Lieferanschrift_ID}",
+        "sale.deliveryDate": "{auftraege.Liefertermin}",
+        "sale.deliverySlip": "{auftraege.Lieferhinweis}",
+        "sale.deposit": "{auftraege.Anzahlungsbetrag2}",
+        "sale.disabled": "{auftraege.Geloescht}",
+        "sale.discount": "{auftraege.Endrabatt}",
+        "sale.editStamp": "{auftraege.Geaendert_am}",
+        "sale.finished": "{auftraege.Erledigt}",
+        "sale.id": "{auftraege.ID + _OFFSET_}",
+        "sale.invoiceAddress": "{auftraege.Adressen_Rechnungsanschrift_ID}",
+        "sale.invoiceTitle": "{auftraege.Nachlauftext}",
+        "sale.mainAddress": "{auftraege.Adressen_Kunden_ID}",
+        "sale.no": "{auftraege.Auftragsnummer}",
+        "sale.notice": "{auftraege.Notizen}",
+        "sale.notification": "{auftraege.Hinweis}",
+        "sale.payment": "{auftraege.Anzahlungsbetrag}",
+        "sale.paymentOpen": "{auftraege.OffenePosten}",
+        "sale.paymentTerm": "{auftraege.Zahlungshinweis}",
+        "sale.priceGross": "{auftraege.VKBrutto}",
+        "sale.priceNet": "{auftraege.VKNetto}",
+        "sale.priceProduct": "{auftraege.VKBrutto_Waehrung}",
+        "sale.priceProductGross": "{auftraege.VKBrutto_Fest}",
+        "sale.signed": "0"
+    }
+}

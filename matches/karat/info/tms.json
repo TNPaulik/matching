@@ -1,0 +1,9 @@
+{
+    "catalog": "angebote",
+    "customer": "adressen",
+    "movement": "auftraege",
+    "ordering": "bestellungen",
+    "product": "artikel",
+    "sale": "angebote",
+    "saleoffer": "auftraege"
+}

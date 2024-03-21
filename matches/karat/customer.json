@@ -1,0 +1,22 @@
+{
+    "matches": {
+        "customer.birthday": "{adressen.Geburtstag} gerboren in {angebote.Angebotsdatum}",
+        "customer.birthday2": "{adressen.Geburtstag2}",
+        "customer.id": "{adressen.ID}",
+        "customer.info": "{adressen.Info}",
+        "customer.location": "{adressen.Ort}",
+        "customer.mail": "{adressen.EMail}",
+        "customer.no": "{adressen.Nummer}",
+        "customer.order": "{delim(bestellungen.ID, bestellungen.Kundennummer)}",
+        "customer.phone": "{phone(adressen.Telefon)}",
+        "customer.prename": "{adressen.Name1}",
+        "customer.sale": "{count(angebote.Adressen_Kunden_ID)}",
+        "customer.source": "CARAT",
+        "customer.status": "client",
+        "customer.street": "{adressen.Strasse}",
+        "customer.surname": "{adressen.Name2}",
+        "customer.title": "{konfig_anreden.Anrede}",
+        "customer.type": "{adressen.Kategorie[1=Kunde,2=Lieferant,3=Mitarbeiter,4=Fremdfirma,5=Diverser,6=Anschrift,7=Ansprechpartner,8=Lageradresse]}",
+        "customer.zip": "{adressen.PLZ}"
+    }
+}

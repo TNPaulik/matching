@@ -1,0 +1,34 @@
+{
+    "artikel": {
+        "artikel_ekpreise": {
+            "ID": "Artikel_ID"
+        },
+        "artikel_vkpreise": {
+            "ID": "Artikel_ID"
+        },
+        "lagerbestaende": {
+            "ID": "Artikel_ID"
+        },
+        "konfig_mwst": {
+            "Konfig_MwSt_ID": "Id"
+        }
+    },
+    "adressen": {
+        "konfig_anreden": {
+            "Konfig_Anreden_ID": "ID"
+        }
+    },
+    "bestellungen": {
+        "adressen": {
+            "Lieferanschrift_ID": "ID"
+        },
+        "bestellungen_positionen": {
+            "ID": "Bestellungen_ID"
+        }
+    },
+    "auftraege": {
+        "tmp_prn_op": {
+            "Adressen_Sachbearbeiter_ID": "Sachbearbeiter"
+        }
+    }
+}

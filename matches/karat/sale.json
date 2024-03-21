@@ -1,0 +1,32 @@
+{
+    "matches": {
+        "sale.canceled": "{angebote.Storniert}",
+        "sale.createStamp": "{angebote.Erstellt_am}",
+        "sale.customer": "{angebote.Adressen_Kunden_ID}",
+        "sale.date": "{angebote.Angebotsdatum}",
+        "sale.deliveryAddress": "{angebote.Adressen_Lieferanschrift_ID}",
+        "sale.deliveryDate": "{angebote.Liefertermin}",
+        "sale.deliverySlip": "{angebote.Lieferhinweis}",
+        "sale.deliveryWork": "{angebote.Ladeumfang}",
+        "sale.deposit": "{angebote.Anzahlungsbetrag2}",
+        "sale.disabled": "{angebote.Geloescht}",
+        "sale.discount": "{angebote.Endrabatt}",
+        "sale.editStamp": "{angebote.Geaendert_am}",
+        "sale.finished": "{angebote.Erledigt}",
+        "sale.id": "{angebote.ID}",
+        "sale.invoiceAddress": "{angebote.Adressen_Rechnungsanschrift_ID}",
+        "sale.invoiceTitle": "{angebote.Nachlauftext}",
+        "sale.mainAddress": "{angebote.Adressen_Kunden_ID}",
+        "sale.no": "{angebote.Angebotsnummer}",
+        "sale.notice": "{angebote.Notizen}",
+        "sale.notification": "{angebote.Hinweis}",
+        "sale.payment": "{angebote.Anzahlungsbetrag}",
+        "sale.paymentOpen": "{angebote.OffenePosten}",
+        "sale.paymentTerm": "{angebote.Zahlungshinweis}",
+        "sale.priceGross": "{angebote.VKBrutto}",
+        "sale.priceNet": "{angebote.VKNetto}",
+        "sale.priceProduct": "{angebote.VKBrutto_Waehrung}",
+        "sale.priceProductGross": "{angebote.VKBrutto_Fest}",
+        "sale.signed": "1"
+    }
+}
